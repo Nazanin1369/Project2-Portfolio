@@ -175,7 +175,7 @@ main {
 }
 
 
- .small-.description-caption {
+ .small-description-caption {
    width: 280px;
 }
 
@@ -455,7 +455,7 @@ main {
 @media screen and (min-width: 701px) {
 
   .img-section {
-    display: block;
+    visibility: visible;
   }
 
 
@@ -467,7 +467,11 @@ main {
   .img-section1,
   .img-section2,
   .img-section3 {
-    display: none;
+    visibility: hidden;
+  }
+
+  main{
+    height: 1000px;
   }
 
 }
