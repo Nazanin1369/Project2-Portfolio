@@ -20,7 +20,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0; 
+  margin: 0;
   color: #747704;
   display: inline-block;
 }
@@ -54,12 +54,12 @@ div {
  * Header
  *
  */
- 
+
 .header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
-  font-family: 'Lato', sans-serif;;  
+  font-family: 'Lato', sans-serif;;
 }
 
 
@@ -91,7 +91,7 @@ div {
  * Main
  *
  */
- 
+
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   margin-left: auto;
@@ -118,7 +118,7 @@ main {
   height: 300px;
 }
 
- 
+
 /*
 *
 * Featured Work
@@ -158,8 +158,8 @@ main {
     justify-content: center;
     margin-left: 2em;
 }
- 
- 
+
+
 .name-caption {
    text-align: center;
    font-weight: bold;
@@ -167,37 +167,37 @@ main {
    font-size: x-large;
    color: #747704;
 }
- 
- 
+
+
 .description-caption {
    text-align: center;
-   letter-spacing: 1px;  
+   letter-spacing: 1px;
 }
- 
- 
+
+
  .small-.description-caption {
    width: 280px;
 }
- 
- 
+
+
 /*
 * Media
 *
 */
 @media screen and (max-width: 450px){
-  
+
   .header-logo {
     margin-left: 2em;
     margin-top: 3em;
     height: 65px;
   }
-  
-  
+
+
   .header-title {
      margin-right: 34em;
   }
-  
-  
+
+
   h1 {
     letter-spacing: 6px;
     font-weight: 400;
@@ -205,39 +205,39 @@ main {
     margin-right: -1em;
     padding-top: 0.5em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 1px;
     margin-right: -1em;
     font-size: small;
   }
-  
-  
+
+
   .main-image {
     padding-top: 3em;
     width:100%;
   }
-  
-  
+
+
   .featured-word span {
     font-size: 2em;
   }
-  
-  
-  .img1, 
-  .img2, 
+
+
+  .img1,
+  .img2,
   .img3 {
     width: 100%;
     position: relative;
   }
-  
-  
+
+
   .name-caption {
     margin-left: -3em;
    }
-   
-   
+
+
    .img2 img {
      margin-left: 2em;
    }
@@ -245,62 +245,62 @@ main {
 
 
 @media screen and (min-width: 451px) and (max-width: 500px){
-  
+
   .header-logo {
     margin-left: 2em;
     margin-top: 3em;
   }
-  
-  
+
+
   .header-title {
      margin-right: 30em;
   }
-  
-  
+
+
   h1 {
     letter-spacing: 3px;
     margin-right: -3em;
   }
-  
-  
+
+
   h3 {
     margin-right: -4em;
   }
-  
-  .img-section1, 
-  .img-section2, 
+
+  .img-section1,
+  .img-section2,
   .img-section3 {
     margin-left: 5em;
   }
-  
+
 }
 
 
 @media screen and (min-width: 501px) and (max-width: 600px){
-  
+
   .header-logo {
     margin-left: 2em;
     margin-top: 3em;
   }
-  
-  
+
+
   .header-title {
      margin-right: 25em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 5px;
     margin-right: -1em;
   }
-  
-  .img-section1, 
-  .img-section2, 
+
+  .img-section1,
+  .img-section2,
   .img-section3 {
     margin-left: 8em;
   }
-  
-  
+
+
   h1 {
     margin-right: -2em;
     letter-spacing: 6px;
@@ -310,25 +310,25 @@ main {
 
 
 @media screen and (min-width: 601px) and (max-width: 650px){
-  
-  .header-logo { 
+
+  .header-logo {
     margin-left: 2em;
     margin-top: 3em;
   }
-  
-  
+
+
   .header-title {
      margin-right: 17em;
   }
-  
-  
+
+
   h1 {
     letter-spacing: 9px;
     padding-right: 28px;
     margin-right: -3em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 5px;
     margin-right: -2em;
@@ -338,63 +338,63 @@ main {
 
 
 @media screen and (min-width: 601px) and (max-width: 700px){
-  
+
   .img-section1,
-  .img-section2, 
+  .img-section2,
   .img-section3 {
     margin-left: 11em;
   }
-  
+
 }
 
 
 @media screen and (min-width: 651px) and (max-width: 750px){
-  
+
   .header-logo {
     margin-left: 2em;
     margin-top: 3em;
   }
-  
-  
+
+
   .header-title {
      margin-right: 13em;
   }
-  
-  
+
+
   h1 {
     letter-spacing: 6px;
     padding-right: 28px;
     margin-right: -2em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 5px;
     margin-right: -1em;
   }
-  
+
 }
 
 
 @media screen and (min-width: 751px) and (max-width: 850px){
-  
+
   .header-logo {
     margin-left: 2em;
     margin-top: 3em;
   }
-  
-  
+
+
   .header-title {
      margin-right: 5em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 8px;
     margin-right: 1em;
   }
-  
-  
+
+
   h1 {
     letter-spacing: 6px;
     padding-right: 28px;
@@ -404,7 +404,7 @@ main {
 }
 
 @media screen and (min-width: 851px) {
-  
+
   main,
   .header,
   .content {
@@ -412,15 +412,15 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
-  
-  
+
+
   h1 {
     font-size: xx-large;
     margin-right: -3em;
     padding-top: 1em;
   }
-  
-  
+
+
   h3 {
     letter-spacing: 7px;
     margin-right: -3em;
@@ -429,22 +429,22 @@ main {
     height: 85px;
     margin-top: 25px;
   }
-  
-  
+
+
   .header-title {
     margin-top: -7em;
   }
-  
-  
+
+
   .main-image {
     margin-top: 5em;
     margin-bottom: 5em;
   }
-  
+
 }
 
 @media screen and (max-width: 700px) {
-  
+
   .img-section {
     display: none;
   }
@@ -453,17 +453,17 @@ main {
 
 
 @media screen and (min-width: 701px) {
-  
+
   .img-section {
     display: block;
   }
-  
-  
+
+
   .img2 img {
     margin-top: -2em;
   }
-  
-  
+
+
   .img-section1,
   .img-section2,
   .img-section3 {
