@@ -1,6 +1,6 @@
 # Project2-Portfolio
 
-[view live](http://nazanin1369.github.io/Project2-Portfolio/)
+[view the project live](http://nazanin1369.github.io/Project2-Portfolio/)
 
 #### Description
 
